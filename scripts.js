@@ -83,7 +83,7 @@ var barChartOptions = {
     show: false
   },
   xaxis: {
-    categories: ["Laptop", "Phone", "Monitor", "Headphones", "Camera"],
+    categories: ["", "", "", "", ""],
   },
   yaxis: {
     title: {
