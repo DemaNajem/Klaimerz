@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="img/logo.jpg">
+    <title>Klaimerz</title>
+         <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+ 
+      
+    <!--  Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  
+  </head>
+  <body>
+    <div class="grid-container">
+
+      <!-- Header -->
+      <header class="header">
+        <div class="menu-icon" onclick="openSidebar()">
+      
+        </div clas=cu>
+        <div class="header-left">
+
+          <span class='material-icons'>menu</span> </i>
+        </div> 
+        <div class="header-right">
+          
+          <span class="material-icons-outlined"  >email</span>
+          &nbsp;
+          <span class="material-icons-outlined">notifications</span>
+          &nbsp;
+          <span class='material-icons'>flag</span>
+          &nbsp;
+          
+          
+            <img src="img/ka.jpg" alt="My logo" width="15" height="15">  Admin Klaimerz
+            
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span>
+              
+              <span class="material-icons-outlined">settings</span>
+              
+            </span>
+        </div>
+      </header>
+      <!-- End Header -->
+
+      <!-- Sidebar -->
+      <aside id="sidebar">
+        <div class="sidebar-title" style="background-color: #246dec;color: white;  padding: -30 30px ;text-align: center;">
+          <div class="sidebar-brand" >
+            &nbsp; &nbsp; <span style="text-align: center;"><b><i>Klaimerz</i></b> </span> 
+          </div> <br/> 
+          
+          <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+        </div>
+      
+        
+          <ul id="myUL">
+          <div> &nbsp; &nbsp; &nbsp;  <img src="img/ka.jpg" alt="My logo" width="50" height="55"> &nbsp; &nbsp; <em><b style="position: sticky;text-align: justify;">Admin </b> </em></div>  
+            
+           <div> &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+             <img src="img/on.png" alt="My logo" width="15" height="15"> <em style="position: sticky;text-align:justify;">online</em></div> <br/>  &nbsp; &nbsp;
+           
+            <input type="search" placeholder="Search.." id="myInput" style="position:relative; padding: 2px; color:white;background-color:gray; width:75%;height: 75%;"><span class='material-icons'>search</span> <br/> </li> <br/>
+            <li style="color: gray; padding-top: 3px; background-color: black;">MAin NAVIGATION</li>
+               <br/>
+
+              <li class="caret">
+            <span class="material-icons-outlined">dashboard</span> Dashboard &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; 
+            
+            <span class='material-icons'> expand_more</span> <br/> <br/>
+            <ul class="nested">
+              <li> <span class='material-icons'>radio_button_unchecked</span> Dashboard v1</li>
+              <br/>
+              <li> <span class='material-icons'>radio_button_unchecked</span>Dashboard v2</li>
+              
+            </ul>
+          </li>
+          
+          <li class="sidebar-list-item">
+            <span class='material-icons'>feed</span> Layout Option &nbsp; &nbsp; &nbsp; &nbsp;   <span class='material-icons' style="color:#246dec">looks_4</span> 
+          </li>
+          <li class="sidebar-list-item">
+            <span class='material-icons'>view_module</span>Widgets &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class='material-icons' style="color:green">fiber_new</span>
+          </li>
+          <li class="sidebar-list-item"> 
+            <span class='material-icons'>pie_chart</span> Charts &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp;&nbsp;  &nbsp; &nbsp;  &nbsp;
+            <span class='material-icons'> arrow_left</span> <br/> <br/>
+            <ul class="nested">
+              <li> <span class='material-icons'>radio_button_unchecked</span> 1</li>
+              <br/>
+              <li> <span class='material-icons'>radio_button_unchecked</span>2</li>
+              
+            </ul>
+          </li>
+          <li class="sidebar-list-item">
+            <span class='material-icons'>laptop</span> UL Elements &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp;<span class='material-icons'>arrow_left</span> <br/> <br/>
+            <ul class="nested">
+              <li> <span class='material-icons'>radio_button_unchecked</span> page 1</li>
+              <br/>
+              <li> <span class='material-icons'>radio_button_unchecked</span>page 2</li>
+              
+            </ul>
+          </li>
+          <li class="sidebar-list-item">
+            <span class='material-icons'>edit_note</span>Forms &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp;<span class='material-icons'>arrow_left</span> <br/> <br/>
+            <ul class="nested">
+              <li> <span class='material-icons'>radio_button_unchecked</span> page 1</li>
+              <br/>
+              <li> <span class='material-icons'>radio_button_unchecked</span>page 2</li>
+              
+            </ul>
+          </li>
+          <li class="sidebar-list-item">
+            <span class='material-icons'>table_view</span> Tables &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; <span class='material-icons'>arrow_left</span> <br/> <br/>
+            <ul class="nested">
+              <li> <span class='material-icons'>radio_button_unchecked</span> page 1</li>
+              <br/>
+              <li> <span class='material-icons'>radio_button_unchecked</span>page 2</li>
+              
+            </ul>
+          </li>
+        </ul>
+      </aside>
+      
+      <!-- End Sidebar -->
+
+
+
+
+
+
+
+
+
+      <!-- Main -->
+      <main class="main-container">
+        <div class="main-title">
+          <p class="font-weight-bold">DASHBOARD</p>
+     
+             <p > <i class="material-icons">home</i> Home > Dashboard 
+            </p>
+        
+  
+          </div>
+        <div class="main-cards">
+
+          <div class="card">
+            <div class="card-inner">
+                
+              <span class="material-icons-outlined" style="color: #246dec;" >settings</span>
+              &nbsp; &nbsp;
+              <p class="text-primary">CPU TRAFFIC
+              <br/>
+             
+              <span class="text-primary font-weight-bold">90%</span> 
+              </p>
+            </div>
+            
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <span>
+                <span class='material-icons' style="color: red;">thumb_up_off_alt</span>
+              </span>
+              <p class="text-primary">LIKES
+              <br/>
+             
+              <span class="text-primary font-weight-bold">41,410</span> 
+              </p>
+            </div>
+            
+          </div>
+
+
+          <div class="card">
+            <div class="card-inner">
+              <span class="material-icons-outlined text-green">shopping_cart</span>
+              <p class="text-primary">SALES
+             <br/>
+            
+            <span class="text-primary font-weight-bold">760</span> </p> </div>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <i class="material-icons" style="color: orange; size: 8px;">people_outline</i>
+              <p class="text-primary">NEW MEMBERS
+                <br/>
+           
+            <span class="text-primary font-weight-bold">2,000</span> </p>  </div>
+          </div>
+
+        </div>
+        <div class="main-title">
+          <p class="font-weight-bold">MONTHLY RECAP REPOT</p>
+     
+             <p > 
+               <span class='material-icons'>build</span> <span class='material-icons'>remove</span>
+               <span class='material-icons'>clear</span>
+            </p>
+        
+  
+          </div>
+        
+        <hr style="color: whitesmoke;">
+
+       
+        <div class="charts">
+  
+            <div class="charts-card">
+              <p class="chart-title"></p>
+              <!-- Slideshow -->
+<div class="slideshow-container">
+
+  
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="img/0.jpeg" style="width:100%">
+    <div class="text" style="color: gray;"><b>klaimerz</b></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="img/2.jpeg" style="width:100%">
+    
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="img/11.jpeg" style="width:100%">
+    
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+
+      </div>
+                     
+          
+  
+            <div class="charts-card">
+              <p class="chart-title">Goal Completion</p>
+              <p>registered users   <div class="bar user">160/200</div>
+
+              </p>
+<div class="container">
+  
+</div>
+
+<p>  services <div class="bar ser">310/400</div></p>
+<div class="container">
+  
+</div>
+
+<p>The number of visitors to the page    <div class=" bar visit">480/800</div></p>
+<div class="container">
+  
+</div>
+
+<p>     Send inquiries   <div class=" bar Send" style=" text-align: right;">250/500</div></p>
+<div class="container">
+  
+</div>
+              
+            </div>
+            
+          </div>
+          <table>
+            <tr>   &nbsp;&nbsp;&nbsp;
+              <th><span class='material-icons' style="color:green">arrow_drop_up</span> <b style="color:green">17% </b><br/>
+                $35,210.43 <br/>  <i style="color: gray">TOTEL REVENUE </i></th>
+              <th ><span class='material-icons' style="color:orange">arrow_left</span> <b style="color:orange">0%</b> 
+                <br/>$10,390.90 <br/> <i style="color: gray"></i>TOTEL COST </i></th>
+              <th ><span class='material-icons' style="color:green">arrow_drop_up</span><b style="color:green">20%</b> <br/> 
+                $24,813.53 <br/>  <i style="color: gray">TOTEL PROFIT</i></th>
+              <th ><span class='material-icons'style="color: red;">arrow_drop_up</span><B style="color: red;">18%</B><br/>1200<BR/>
+                <i style="color: gray"> GOAL COMLETIONS </i> </th>
+            </tr>
+           
+            
+              
+          </table>
+        </main>
+        
+          <footer>
+            
+
+          </footer>
+        
+        <!-- End Main -->
+     
+    <!-- Scripts -->
+  
+    
+   
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
+
+     
+    
+  
+     
+     
+
+
+
+      
+      
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
